@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(164, 204, 205);
+}
+
+.divmae {
+    padding: 20px;
+    border: 5px solid #0b84d4;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    
+    
+}
+
+.quadrado {
+    width: 210px;
+    height: 210px;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+
+}
+
+.RGB {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}

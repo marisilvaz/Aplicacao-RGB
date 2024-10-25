@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+    <title>RGB</title>
+</head>
+
+<body>
+    <div class="divmae">
+        <h1>Aplicação RGB</h1>
+
+        <div class="RBG">
+            <p>(R) Vermelho 
+                <input type="range" id="rangeVerm" oninput="mudaCor()" min="0" max="255" value="128" > 
+                <input type="text" id="valorVerm" readonly >  
+            </p>
+        </div>
+        
+        <div class="RGB">
+            <p>(G) Verde 
+                <input type="range" id="rangeVerd" oninput="mudaCor()" min="0" max="255" value="128"> 
+                <input type="text" id="valorVerd" readonly> 
+            </p>
+        </div>
+
+        <div class="RGB">
+            <p>(B) Azul 
+                <input type="range" id="rangeAzul" oninput="mudaCor()" min="0" max="255" value="128"> 
+                <input type="text" id="valorAzul" readonly> 
+            </p>
+        </div>
+
+        <div class="quadrado" id="quadrado">
+
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
